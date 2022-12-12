@@ -8,8 +8,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "GbHdmi",
     libraryDependencies ++= Seq(
-      "edu.berkeley.cs" %% "chisel3" % "3.5.1",
-      "edu.berkeley.cs" %% "chiseltest" % "0.5.1" % "test",
+      "edu.berkeley.cs" %% "chisel3" % "3.5.4",
+      "edu.berkeley.cs" %% "chiseltest" % "0.5.4" % "test",
       "eu.fabienm" %% "gbvga" % "0.1.0",
       "com.armadeus" %% "hdmicore" % "0.1.0",
       "Martoni" %% "chisnespad" % "0.2.0",
